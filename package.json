@@ -1,0 +1,25 @@
+{
+  "name": "update_app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "repository": {
+  "type" : "git",
+  "url" : "https://github.com/Booo29/Update_App.git"
+  },
+  "author": "joshua",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^34.0.0",
+    "electron-builder": "^25.1.8"
+  },
+  "dependencies": {
+    "electron-updater": "^6.3.9"
+  }
+}
